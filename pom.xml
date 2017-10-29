@@ -10,11 +10,6 @@
   	<artifactId>struts2-core</artifactId>
   	<version>2.5.12</version>
  	 </dependency>
-  	<dependency>
-  		<groupId>jstl</groupId>
-  		<artifactId>jstl</artifactId>
-  		<version>1.2</version>
-  	</dependency>
   	 <dependency>
  		<groupId>org.apache.poi</groupId>
   		<artifactId>poi-ooxml</artifactId>
@@ -58,6 +53,11 @@
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-orm</artifactId>
 		<version>4.1.6.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
 	</dependency>
   </dependencies>
 </project>

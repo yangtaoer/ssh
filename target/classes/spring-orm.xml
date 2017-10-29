@@ -57,6 +57,7 @@
     	<property name="mappingLocations" value="classpath:mapping/*.hbm.xml">   	
     	</property>
     </bean>
+    <!-- 把HibernateTemplate交给spring管理 -->
     <bean id="hibernateTemplate" class="org.springframework.orm.hibernate4.HibernateTemplate">
     	<property name="sessionFactory" ref="sessionFactory"></property>
     
@@ -69,5 +70,7 @@
     <tx:annotation-driven
     	transaction-manager="txManager"
     />
+    <!-- 添加组件扫描 -->
     
+    <context:component-scan base-package="ssh.day04"/>
 </beans>

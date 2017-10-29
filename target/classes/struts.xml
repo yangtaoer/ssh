@@ -100,4 +100,13 @@
 		</action>
 	</package>
 	
+	
+	<package name="day04" namespace="/day04" extends="json-default">
+		<!-- ssh整合案例 -->
+		<action name="list" class="productAction" method="list">
+			<result name="success">
+				/WEB-INF/jsp/products.jsp
+			</result>
+		</action>
+	</package>
 </struts>
